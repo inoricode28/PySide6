@@ -1,0 +1,32 @@
+***********************************
+virtual python
+***********************************
+python -m venv venv
+alias avenv=.\venv\Scripts\activate
+para activarlo escribe "avenv"
+python.exe -m pip install --upgrade pip
+-----------------------------------
+
+:: Para el directorio actual
+pyenv local 3.10.7
+
+:: Global (todo el sistema)
+pyenv global 3.10.13
+
+pip install numpy==1.23.4
+pip install PySide2==5.15.2.1
+pip install iconify==0.0.103
+-->iconify-fetch //Permite la descarga de los iconos
+pip install QT-PyQt-PySide-Custom-Widgets==0.6.3
+
+pip install numpy==1.23.4
+pip install qt-material==2.12
+pip install QtAwesome==1.2.1
+
+
+***********************************
+Convertir en Ejecutable
+***********************************
+pip install auto-py-to-exe
+-->pip uninstall typing esto de debe desistalar para que funcione 
+-->auto-py-to-exe //Ejecutamos
